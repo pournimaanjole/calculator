@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>calculator</title>
+    <style>
+        .calculator-container{
+            background-color: #333333;
+            width: 400px;
+            height: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            border-radius: 30px;
+            padding: 10px;
+
+
+        }
+       .calculator-screen{
+        width: 300px;
+        display: block;
+        height: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        font-size: 50px;
+        padding: 10p;
+        border-radius: 10px;
+        margin-bottom: 20px;
+       }
+       .button{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 20px;
+
+       }
+       .cal-button{
+        height: 40px;
+        width: 60px;
+        font-size:20px ;
+        border: none;
+        border-radius: 6px;
+        background-color:#1a1a1a ;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 0 2px 2px black;
+
+        
+       }
+       
+       .clo{
+        background-color:#b380ff ;
+       }
+       .size{
+        width:130px ;
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="calculator-container">
+        <div >
+            <input type="text " class="calculator-screen">
+        </div >
+        <div class="button">
+            <button class="cal-button">∛ </button>
+            <button class="cal-button">MU </button>
+            <button class="cal-button">+/- </button>
+            <button class="cal-button">√ 	 </button>
+            <button class="cal-button">%</button>
+        </div>
+        <div class="button">
+            <button class="cal-button">MC </button>
+            <button class="cal-button">MR </button>
+            <button class="cal-button">M- </button>
+            <button class="cal-button">M+ </button>
+            <button class="cal-button">÷</button>
+        </div>
+        <div class="button">
+            <button class="cal-button">AC </button>
+            <button class="cal-button clo">7 </button>
+            <button class="cal-button clo">8 </button>
+            <button class="cal-button clo">9</button>
+            <button class="cal-button">*</button>
+        </div>
+        <div class="button">
+            <button class="cal-button">CE </button>
+            <button class="cal-button clo">4 </button>
+            <button class="cal-button clo">5 </button>
+            <button class="cal-button clo">6</button>
+            <button class="cal-button">-</button>
+        </div>
+        <div class="button">
+            <button class="cal-button">ON/C </button>
+            <button class="cal-button clo">1</button>
+            <button class="cal-button clo">2 </button>
+            <button class="cal-button clo">3</button>
+            <button class="cal-button ">+</button>
+            
+        </div>
+        
+       <div class="button">
+        <button class="cal-button clo">0 </button>
+        <button class="cal-button clo">00</button>
+        <button class="cal-button clo">. </button>
+        <button class="cal-button size">=</button>
+       </div>
+       
+    </div>
+</body>
+</html>
